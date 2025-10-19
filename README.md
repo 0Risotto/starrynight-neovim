@@ -7,10 +7,10 @@ Simple light weight theme based on Starry Night
 ```lua
 return {
   {
-    "0Risotto/rainbow12",
+    "0Risotto/starrynight-neovim",
     lazy = false,
     priority = 1000,
-    config = function() vim.cmd "colorscheme rainbow12" end,
+    config = function() vim.cmd "colorscheme starrynight" end,
   },
 }
 ```
